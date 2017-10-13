@@ -1,6 +1,6 @@
 <template>
   <div id='app'>
-    <message>Hello There</message>
+    <message v-text="test"></message>
     <message>Hello There</message>
     <message>Hello There</message>
   </div>
@@ -13,7 +13,7 @@
     components: { Message },
     data () {
       return {
-
+        'test': 'testing'
       }
     }
   }
