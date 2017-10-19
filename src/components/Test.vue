@@ -1,16 +1,16 @@
 <template>
 	<div class="box">
-		<p>
-			<slot></slot>
-			<test></test>
-		</p>
+		{{pants}}
 	</div>
 </template>
 
 <script>
-import Test from "./Test.vue";
 	export default {
-		components: {Test}
+		data () {
+      return {
+      	pants: 'pantss'
+      }
+    }
 	}
 </script>
 
