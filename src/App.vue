@@ -14,7 +14,7 @@
     components: { Message },
     data () {
       return {
-        'test': 'testing'
+        'test': 'qweqwe'
       }
     }
   }
